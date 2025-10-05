@@ -11,12 +11,12 @@ html {
 body {
     font-family: "Noto Sans TC", sans-serif;
     color: #333;
-    background-color: #f5f8fa;
+    background-color: #3A2D28;
     line-height: 1.6;
 }
   
 .page-header {
-    background-color: #A487374;
+    background-color: #a48374; /* header color */
     color: white;
     text-align: center;
     padding: 2rem 1rem;
