@@ -83,14 +83,15 @@ body {
     }
 }
   
-/* footer */
-footer {
+
+footer { /* footer */
     text-align: center; 
-    padding: 2rem 1rem; 
-    background-color: #5A3A2A;
+    padding: 2rem 1rem;  
+    background-color: #a48374; 
+    color: white; 
 }
+
 footer p {
-    color: #FFF;
-    margin-bottom: 0.5rem; /* ✅ space in footer text */
+    margin: 0.5rem 0;  
 }
 
