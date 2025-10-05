@@ -1,4 +1,4 @@
-* {
+ {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -40,19 +40,19 @@ body {
     gap: 1.5rem;
 }
 
-.qa h2 {
+.question-item h2 {
     color: #4a90e2;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
 
-.qa p {
+.question-item p {
     font-size: 1rem;
     color: #555;
     margin-bottom: 1rem; /* ✅ add space between paragraphs */
 }
 
-.qa p:last-child {
+.question-item p:last-child {
     margin-bottom: 0; /* ✅ prevent extra space at the very end */
 }
   
@@ -75,10 +75,10 @@ body {
     .container {
       padding: 1rem;
     }
-    .qa h2 {
+    .question-item h2 {
       font-size: 1rem;
     }
-    .qa p {
+    .question-item p {
       font-size: 0.9rem;
     }
 }
@@ -93,5 +93,4 @@ footer p {
     color: #FFF;
     margin-bottom: 0.5rem; /* ✅ space in footer text */
 }
-
 
