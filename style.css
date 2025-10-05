@@ -12,14 +12,14 @@ body {
     font-family: "Noto Sans TC", sans-serif;
     color: #333;
     background-color: #F1EDE6;  /* body background color */
-    line-height: 1.6;
+    line-height: 1.6; /*space bwt lines*/
 }
   
 .page-header {
     background-color: #a48374; /* header color */
     color: white;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem; /*space inside (2rem top/bottom, 1rem sides)*/
 }
 .page-header h1 {
     font-size: 1.8rem;
@@ -41,7 +41,7 @@ body {
 }
 
 .question-item h2 {
-    color: #4a90e2;
+    color: #3A2D28; /* h2 color */
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
 }
@@ -49,14 +49,14 @@ body {
 .question-item p {
     font-size: 1rem;
     color: #555;
-    margin-bottom: 1rem; /* ✅ add space between paragraphs */
+    margin-bottom: 1rem; /* add space between paragraphs */
 }
 
 .question-item p:last-child {
-    margin-bottom: 0; /* ✅ prevent extra space at the very end */
+    margin-bottom: 0; /* prevent extra space at the very end */
 }
   
-@media (max-width: 992px) {
+@media (max-width: 992px) { /*tablet*/
     html {
       font-size: 15px;
     }
@@ -65,7 +65,7 @@ body {
     }
 }
   
-@media (max-width: 600px) {
+@media (max-width: 600px) { /*mobile*/
     html {
       font-size: 14px;
     }
