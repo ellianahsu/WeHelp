@@ -1,72 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<meta charset="utf-8" />
-<title>WeHelp 申請網頁範例</title>
-<style>
-body{
-	margin:0px;font-family:arial, sans-serif;
-	font-size:20px;letter-spacing:1px;
-}
-a{
-	color:#6699cc;text-decoration:none;
-}
-a:hover, a:active{
-	text-decoration:underline;
-}
-header{
-	background-color:#223344;color:#ffffff;
-	text-align:center;font-size:2em;
-	padding:30px 0px;
-}
-main{
-	padding:30px 0px;line-height:1.5em;
-}
-main>section{
-	display:flex;justify-content:center;
-}
-main>section>.col1{
-	width:90%;max-width:1200px;
-}
-main>section.headline{
-	font-size:1.5em;margin:30px 0px;
-}
-/* main>section.examples  */
-main>section.examples .example{
-	margin-bottom:15px;
-}
-main>section.examples .example>.description{
-	color:#888888;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>第七屆 WeHelp 訓練營申請表</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	<header>WeHelp 申請網頁範例</header>
-	<main>
-		<section>
-			<div class="col1">
-				這是一個範例，內容隨便寫的，請按照 WeHelp 網頁中的事前準備說明，完成你自己的申請網頁。
-			</div>
-		</section>
-		<section class="headline">
-			<div class="col1">自我介紹</div>
-		</section>
-		<section class="examples">
-			<div class="col1">
-				我是彭彭，很希望能夠加入 WeHelp，轉職成為網站工程師。
-			</div>
-		</section>
-		<!--
-		<section class="examples">
-			<div class="col1">
-				<div class="example">
-					<div class="title">Simple Counter</div>
-					<div class="description">Show basic usage of simple MVC framework.</div>
-					<div class="link"><a href="examples/counter/">https://cwpeng.github.io/simple-mvc/examples/counter/</div>
-				</div>
-			</div>
-		</section>
-		-->
-	</main>
+  <header class="page-header">
+    <h1>第七屆 WeHelp 訓練營申請</h1>
+  </header>
+
+  <main class="container">
+    <section class="questions">
+      <div class="question-item">
+        <h2>1. 個人簡介和申請動機</h2>
+        <p>我是徐葦倫，大學主修行銷，工作經驗主要在數位廣告投放。因工作需求，我接觸到一些程式技術，例如使用 Chrome 開發者工具檢查廣告呈現是否正確、操作 GTM 進行廣告追蹤，以及在 Amazon 廣告投放中處理大量數據並使用 SQL 撈取資料進行分析。隨著經驗累積，我逐漸發現自己非常喜歡與coding和數據相關的工作，也享受利用技術自動化流程、減少重複性工作所帶來的效率提升。</p>
+        <p>這也是我想轉職的原因。越深入這個領域，也確定這是我未來長期職涯發展的方向。在目前的公司，我在廣告領域已有一定專業知識，經常能想到系統可以如何改進，但不一定知道如何實作。WeHelp Academy 提供了實際操作、專案實戰與累積經驗的機會，正是我所需要的學習環境。</p>
+        <p>轉職是一個需要毅力、專注和高度自律的過程，尤其在競爭激烈的求職市場，不僅需要技能，還需要實務經驗與解決問題的能力。對於自學者而言，如何選擇專案、學習必要技能，以及預見可能遇到的挑戰往往是難題。有經驗的人通常能提前預測可能的結果，並指導我們如何優化專案。WeHelp 提供了這樣的機會，讓老師與助教作為 mentor，給予回饋與指導，幫助我們快速進步、減少阻礙。</p>
+      </div>
+
+      <div class="question-item">
+        <h2>2. 曾經做過哪些軟體工程技術相關的學習？若有作品請分享</h2>
+        <p>SQL learning from the Data Camp and using it at work to pull data from Amazon marketing cloud. </p>
+      </div>
+
+      <div class="question-item">
+        <h2>3. 如果參與這個訓練，會怎麼安排學習時間？</h2>
+        <p>雖然我仍在職，但由於工作為遠端，節省下來的交通時間可以靈活運用。平日時，我會利用上班前三小時和下班後三小時學習，將一天一開始的時間專注於最重要的 WeHelp 學習，並將學習時間拆成兩段，方便吸收與反思；下班後再繼續學習。周末則有整天時間專心投入。第二階段從 12 月開始，我已安排一個月的特休，可全職投入訓練。第三階段正值工作淡季，因此學習進度不會受到影響。</p>
+		<p>每周開始時，我會確認當週需要完成的工作量，並將工作拆解，運用 SMART 原則確保每天都有明確可執行的目標。同時，我會預留平日一個晚上和周末半天作為緩衝時間，用於休息或處理當週需要完成的雜務。每天按照計畫進行的同時，也會保留緩衝時間，以應對突發狀況。如果遇到問題，我會先利用線上資源（如 YouTube、Google、GitHub）自行解決，運用導師或助教的指導，並將 AI 工具作為輔助，以確保自己能真正理解並學會解決問題的方法。</p>  
+      </div>
+
+      <div class="question-item">
+        <h2>4. 軟體技術日新月異，如何確定投入的領域是正確有回報的？</h2>
+        <p>雖然不能保證投入的領域一定會有回報，但我們可以選擇值得追求的目標，讓回報與努力盡可能匹配，逐步成為該領域的專家，尤其是需求量大的領域。提高成功機會的方法之一，是專注於解決日常生活中的痛點，思考如何用技術更快、更好地方式解決問題。除了持續學習，我也重視將所學應用於實際場景，讓投入的學習產生實際價值，從而提高回報率。隨著科技不斷進步，持續學習與實踐能讓自己的道路更寬廣，也激勵我不斷追求更優秀的解決方案。</p>
+      </div>
+
+      <div class="question-item">
+        <h2>5. 請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h2>
+        <p>2023 年，我決定下一份工作鎖定在美國。因有亞馬遜廣告投放方面的經驗，認為在美國會有更多發揮的空間。然而，疫情後美國的求職紅利已過，競爭異常激烈。在將近一年的時間裡，我投出了 300 多份履歷，雖然獲得了一些面試機會，但最終我最嚮往的兩家公司在最後階段都被拒絕。</p>
+        <p>連續的失敗讓我產生了強烈的負面情緒，也對自己的能力感到懷疑。每一次面試被拒絕，似乎都在提醒我自己的不足。直到妹妹語重心長地提醒我：你已經很棒了。一般人在同一時區面試還可以請假，而你白天正常上班，晚上還要配合美國時差面試；能獲得這些面試機會，本身就代表經驗被認可，只是最終常常會因其他考量而被拒。她還問我：「當你拿到這些面試機會時，有慶祝過自己的小成就嗎？」這一問讓我頓悟：我一直過於追求目標，卻忽略了回頭看看一路上已經達成的成就。</p>
+		<p>經過妹妹的提醒，我開始停下腳步，接納負面情緒，並給自己肯定。我也意識到，需要一段短暫休息來調整身心。在這段期間，我學會了celebrate small wins，提醒自己不論是否達到最終目標，過程中獲得的經驗都是寶貴的。我也反思了自己在面試中的表現與表達方式，明確看到改進的方向，為下一次做好充分準備。</p>
+		<p>休息與調整後，我重新開始找工作，這一次準備更加充分，最終順利拿到 offer。整個過程讓我明白：面對負面情緒時，覺察與接納，不忘一路上達成的每一個小里程碑，適時慶祝自己的small wins，必要時給自己休息的時間，重新出發，這樣調整心態，是成長與達成目標的重要一環。</p>
+      </div>
+
+      <div class="question-item">
+        <h2>6. 關於這份申請網頁，分享一個開發時的技術心得？</h2>
+        <p>做的過程中，我會很自然地想要有個架構：我想要什麼？要怎麼做到？比如說，我想要這個顏色，那這個顏色的色碼是多少？文字希望用什麼字型、大小又該怎麼設定？</p>
+      </div>
+
+      <div class="question-item">
+        <h2>7. 如何看待人工智慧的發展對軟體工程師的影響?</h2>
+        <p>AI 降低了入門門檻。無論是軟體工程師還是其他職業，現在的人都能透過像 ChatGPT 這樣的工具，就像隨時有一位家教老師協助學習，不斷解答問題，讓沒有經驗的人也能更快累積能力並踏入這個產業。</p>
+		<p>AI 提升了工作效率，許多重複性與基礎性的工作會逐漸被自動化。進入這個職業的競爭可能會變得更激烈，相較過去，軟體工程師需要具備更多面向的能力。</p>
+        <p>我認為 AI 並不會完全取代軟體工程師。工程師的價值不僅在於寫程式，更在於理解與分析需求、進行架構設計、驗證 AI 的產出，以及跨領域解決問題。未來工程師可能會寫更少的code，但會更依賴產業專業知識與解決複雜問題的能力。</p>
+		<p>Nvidia 黃仁勳曾在一次訪談中提到："You will not lose your job to AI, but will lose it to someone who uses it." 我相信這句話不僅適用於軟體工程師，更適用於各行各業。因此，我希望能從現在開始就積極運用 AI，與它共存並發揮最大價值。 </p>
+      </div>
+	
+		<div class="question-item">
+			<h2>8. 其他想要對我們說的事情?</h2>	
+			<p>感謝 WeHelp 提供這個寶貴的學習平台。除了 YouTube 頻道，老師還創立了 WeHelp Academy，投入大量心力，幫助大家有機會轉職。我非常期待有機會在 WeHelp 中磨練實務能力，克服挑戰，與大家一起突破自我。</p>
+		</div>
+    </section>
+  </main>
 </body>
 </html>
